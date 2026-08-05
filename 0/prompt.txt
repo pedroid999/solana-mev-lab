@@ -1,0 +1,25 @@
+Puedes crear repos con gh?
+
+---
+
+Do initial commit , create repository and push all to new repo
+
+---
+
+Quiero que el repo de github sea público
+
+---
+
+/search
+
+---
+
+Use english always unless i told you otherwise
+
+---
+
+Delete any instruction to rule one language, now i wanna english but other day i would other
+
+---
+
+Add to README.md that this is a self course to learn solana, inditacion must be one brief based on my notion course Curso intensivo de MEV en Solana — Ruta de 7 semanas
