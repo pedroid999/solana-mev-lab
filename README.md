@@ -5,6 +5,32 @@ experimenting with on-chain programs. The current program is a small **Counter**
 PDA-backed account with an authority check and a maximum value. It's the scaffold the
 lab builds on — there is no MEV-specific logic in the program yet.
 
+## Why this repo exists
+
+This is a **self-directed course** — a personal lab for learning Solana from the ground
+up, following my own 7-week syllabus, _Curso intensivo de MEV en Solana — Ruta de 7
+semanas_ (Notion). The goal is not to make SOL. The goal is to build enough of a
+foundation to analyze, simulate and reason about **constructive** MEV, and to finish with
+a paper trader that can prove — with data — whether a strategy still nets a profit after
+fees, tips, slippage, latency and failed transactions.
+
+| Week | Focus                                    |
+| ---- | ---------------------------------------- |
+| 0    | Environment and tooling                  |
+| 1    | Solana mental model and runtime          |
+| 2    | Rust, Tokio and observability            |
+| 3    | AMM and DEX math                         |
+| 4    | Streaming, local state and replay        |
+| 5    | Simulation, execution and Jito           |
+| 6    | Paper trading, lending and liquidations  |
+
+Ground rules I set for myself: no mainnet for the first six weeks, implement the math
+before reaching for SDKs, log every latency and cost, and **no sandwiching or harmful
+front-running** — allowlisted programs and pools only.
+
+The counter program is Week 0/1 scaffolding. It exists to get the toolchain, the build
+and the test loop working end to end — not because a counter has anything to do with MEV.
+
 ## What the program does
 
 The `solana_mev_lab` program exposes two instructions:
