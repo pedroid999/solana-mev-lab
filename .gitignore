@@ -1,0 +1,28 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+.surfpool
+
+# --- Security: secrets & credentials (never commit) ---
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Solana wallet / program keypairs (private keys in plaintext byte arrays)
+*keypair*.json
+id.json
+wallet*.json
+/keys/
+/keypairs/
+/.config/
+
+# Generic secrets
+*.pem
+*.key
+secrets.*
+*.secret
